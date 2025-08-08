@@ -185,15 +185,17 @@ useEffect(() => {
             Podoloji Instagram
           </a>
         </p>
-        <iframe
-          title="Google Maps"
-          src="https://www.google.com/maps/embed?pb=!4v1753191581001!6m8!1m7!1s6S73P5Psm6JIWxrww3r2NA!2m2!1d37.84033313076652!2d27.84462230223014!3f309.2217683356522!4f-17.408207096358055!5f0.7820865974627469"
-          width="100%"
-          height="400"
-          style={{ border: 0, borderRadius: '10px', marginTop: '10px' }}
-          allowFullScreen=""
-          loading="lazy"
-        />
+          <iframe
+            title="Google Maps"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d518.1981643570707!2d27.844662154916527!3d37.840330731576934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b92bea772aba49%3A0x46fd2479ee2ce694!2sPodolog%20Hamdi%20%C3%96zbay!5e0!3m2!1str!2str!4v1754638119689!5m2!1str!2str"
+            width="100%"
+            height="400"
+            style={{ border: 0, borderRadius: '10px', marginTop: '10px' }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+
       </section>
 
       {/* Footer */}
